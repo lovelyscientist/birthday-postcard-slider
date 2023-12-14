@@ -15,7 +15,7 @@ let isDragging = false,
 
 slides.forEach((slide, index) => {
   let slideImage = null;
-  slideImage = slide.querySelector('video')
+  slideImage = slide.querySelector('img')
   if (!slideImage) {
     slideImage = slide.querySelector('div')
   }
