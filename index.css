@@ -177,3 +177,23 @@ h2.white {
     background-position: 200% center;
   }
 }
+
+#sound {
+   width: 30px;
+   height: 25px;
+   top: 30px;
+   left: 30px;
+   background-color: black;
+   position: absolute;
+   background-position: center;
+   background-image: url(../img/speaker_off.png);
+   background-position: left;
+   background-size: contain;
+   background-repeat: no-repeat;
+   cursor: pointer;
+   opacity: 0.6;
+}
+
+audio {
+    z-index: auto;
+}
